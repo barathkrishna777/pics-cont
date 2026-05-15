@@ -1,0 +1,12 @@
+[project]
+name = "pics-cont"
+version = "0.1.0"
+description = "Roadmap disk CSD-PIBT proof harness"
+requires-python = ">=3.11"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

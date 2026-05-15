@@ -1,0 +1,42 @@
+created: "2026-04-13"
+last_researched: "2026-04-13"
+topic: "continuous-space MAPF collision shield inspired by PIBT"
+schema_version: 1
+source_index: "sources.md"
+documents:
+  - path: "README.md"
+    role: "entrypoint"
+    tags: ["orientation", "retrieval"]
+  - path: "01-problem-frame.md"
+    role: "problem framing"
+    tags: ["continuous-space-mapf", "shield", "safety", "liveness", "interfaces"]
+  - path: "02-pibt-family.md"
+    role: "algorithm lineage"
+    tags: ["PIBT", "CS-PIBT", "EPIBT", "MD-PIBT", "priority-inheritance", "backtracking"]
+  - path: "03-continuous-time-mapf.md"
+    role: "constraint and time model"
+    tags: ["SIPP", "CCBS", "unsafe-intervals", "continuous-time", "robust-mapf"]
+  - path: "04-local-avoidance-safety-filters.md"
+    role: "reactive safety filters"
+    tags: ["ORCA", "RVO", "CBF", "barrier-certificates", "NMPC", "deadlock"]
+  - path: "05-sampling-candidate-actions.md"
+    role: "candidate generation"
+    tags: ["sampling", "RRT", "K-CBS", "velocity-sampling", "retiming", "diversity"]
+  - path: "06-design-blueprint.md"
+    role: "proposed algorithm"
+    tags: ["algorithm-sketch", "continuous-space-dependency-pibt", "implementation"]
+  - path: "07-research-agenda.md"
+    role: "next steps"
+    tags: ["experiments", "proofs", "failure-modes", "benchmarks"]
+  - path: "08-roadmap-disk-spec.md"
+    role: "restricted formal model"
+    tags: ["roadmap", "disk-agents", "prototype", "safety-invariant", "progress-condition"]
+  - path: "sources.md"
+    role: "source cards"
+    tags: ["bibliography", "claim-index"]
+source_id_policy:
+  format: "SNN"
+  rule: "Use stable source IDs from sources.md in every technical claim."
+research_notes:
+  - "Web research was synthesized into curated notes; intermediate raw search artifacts are not part of this knowledge base."
+  - "Prefer primary sources where available. Some source cards include author/project pages when they provide implementation details."
